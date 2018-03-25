@@ -35,7 +35,7 @@ The basic usage is to start a new project through:
 yo spsspfx
 ```
 
-![https://raw.githubusercontent.com/StfBauer/generator-n8dspfx/master/docassets/custom-spfx-yeoman.png](https://raw.githubusercontent.com/StfBauer/generator-n8dspfx/master/docassets/custom-spfx-yeoman.png)
+![https://github.com/RodCoder/SPS-Generator/blob/master/assets/init-generator.png](https://github.com/RodCoder/SPS-Generator/blob/master/assets/init-generator.png)
 
 
 
