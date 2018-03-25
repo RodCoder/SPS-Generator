@@ -5,7 +5,10 @@ const Generator = require('yeoman-generator');
 const spfxYeoman = require('@microsoft/generator-sharepoint/lib/generators/app');
 // import command-exists to check if yarn is installed
 const commandExists = require('command-exists').sync;
-
+// Add Color Support to Higlight steps in this generator
+const chalk = require('chalk');
+// yosay
+const yosay = require('yosay');
 // Avoid conflict message
 const fs = require('fs');
 
@@ -31,6 +34,11 @@ module.exports = class extends Generator {
 
     // Prompt for user input for Custom Generator
     prompting() {
+        // this.log(yosay(
+        //     chalk.yellow.bold("SPS - Custom generator") +
+        //     chalk.blue("\nbased on") +
+        //     chalk.cyan.bold("\n@microsoft/SharePoint")));
+
         const prompts = [{
             type: 'confirm',
             name: 'webparts',

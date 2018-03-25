@@ -16,10 +16,7 @@ module.exports = class extends Generator {
 
     // Initialisation Generator + SPFx generator
     initializing() {
-        this.log(yosay(
-            chalk.yellow.bold("SPS - Custom generator") +
-            chalk.blue("\nbased on") +
-            chalk.cyan.bold("\n@microsoft/SharePoint")));
+        
     }
 
     // Prompt for user input for Custom Generator
